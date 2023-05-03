@@ -1,0 +1,17 @@
+<!--http://0.0.0.0:8080/film.mp4-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player</title>
+</head>
+<body>
+<video id="player" width="640" height="360" controls></video>
+
+<script>
+    const videoUrl = 'http://0.0.0.0:8080/film.mp4';
+    const player = document.getElementById('player');
+    player.src = videoUrl;
+</script>
+</body>
+</html>
